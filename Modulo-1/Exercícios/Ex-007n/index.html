@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Meu setimo Code</title>
+</head>
+
+<body>
+    <marquee>
+        <h1>outras formatações</h1>
+    </marquee>
+    <h2>Código-fonte/Pré-formatado</h2>
+    <p>o comando comando
+        <mark
+            style="background-color: black; color: rgb(229, 255, 0);"><code>document.getElementById('teste')</code></mark>
+        é escrito em lingaugaem JavaScript
+    </p>
+    <!-- nessa linha temos uma tag que deixa as letras monoespaçadas... ajudando quando temos que colocar codigos ... essa tag é <code> -->
+    <p>aqui temos um comando na linguagem Python</p>
+    <pre> <mark style="background-color: black; color: rgb(229, 255, 0);"><code>
+num = int(input('Digite um núnero'))
+if num % 2 == 0:
+print(f'O número {num} é par)
+else:
+print(f'O número {num} é impar)
+</code></mark></pre><!-- aqui termos uma tag que pega toda a formatação e a apresenta na tela... isso é a tag <pre>... que da auxilio a tag <code> -->
+    <h2>Citações simples</h2>
+<p>como diria o pai de alguem:<q>o computador é um burro muito rápido</q></p><!-- nessa linha temos uma tag que cria um termo como citação simples colocando entre aspas e dando um sentido -->
+<h2>citações completas</h2>
+<p>segundo Azusa Azuki, na animação Hentai Ouji para Warawanai Neko: <blockquote cite="https://pt.animemotivation.com/hentai-ouji-para-warawanai-neko/">“Você sabe sobre o Príncipe Feliz? É uma história tão feliz. O Príncipe ajuda a todos juntos com uma andorinha, depois morre feliz. Mas eu me pergunto como a andorinha se sentiu? Seu desejo não foi atendido porque ele ajudou o tolo príncipe. A andorinha estava realmente feliz? É sempre assim. O príncipe e todas as pessoas que ele ajudou estão felizes, mas e a andorinha? Ele ajudou o príncipe mais do que ninguém, então por que ele é completamente ignorado?”</blockquote></p><!-- aqui termos uma citação em bloco graças a tag <blockqoute> que tambem tem um parametro chamado cite="" que referencia a fonte da informação apresentada na citação -->
+<h2>abreviações</h2>
+<p>estou estudando <abbr title="HiperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p><!-- aqui temos uma tag que mostra as abreviações que é <abbr>... que possui o parametro title="" que podemos colocar sua versao completa-->
+    <h2>texto invertido</h2>
+    <bdo dir="rtl"><abbr title="?Quero dizer... quer fazer sexo?">Quer Casar Comigo?</abbr></bdo><!-- a tag <bdo> invester as palavras-->
+</body>
+
+</html>

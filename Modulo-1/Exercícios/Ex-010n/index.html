@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu decimo Code</title>
+</head>
+
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tenta abrir em varios dospositivos diferentes e veja o que acontece...</p>
+    <picture><!-- com essa tag é possivel colocar varias tags <source> -->
+        <source media="(max-width:750px )" srcset="img/porra.gif" type="image/gif">
+        <!--temos que colocar da menor para a maior... ou o contrario-->
+        <source media="(max-width:1050px )" srcset="img/foto-m.png" type="image/png">
+        <!-- essa tag com esses parametros(media="(max-width:)"aqui diz o tamanho maximo necessario para essa imagem ser carregada no lugar da padrão... srcset="" aqui indica o local do seu arquivo esta... type="image/">) aqui é o tipo da imagem -->
+        <img src="img/foto-g.png"
+            alt="img flex"><!--  por padrão essa imagem sera carregada, mas com a tags <picture> e <source> isso vai depender da "tela" do aparenho -->
+    </picture>
+    <hr>
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="midia/bom.mp3" controls autoplay
+        loop></audio><!--aqui temos a maneira mais simples de colocar um audio... com a tag <audio> e os parametros 'src="' que indica a localização do arquivo... 'controls' que indicar que é para aparecer o butão de controle do  audio... e o 'autoplay' que é para iniciar a musica automaticamente... 'loop' que faz o audio entrar em um loop-->
+    <audio preload="metadata"controls><!--aqui temos uma tag similar a tag <picture> so que para audio... com os seguintes parametros... um responsavel por configura o acrregamento é o 'preload=""' que possui os tipos auto(so vai considera que o site terminou de carregar so quando o audio carregar por completo), metadata(vai carregar so informações basicas do audio...e depois carregar-lo 100%) e none(so vai carregar se aberta para iniciar) -->
+        <!--essa tag colocam o audio dinsmico... ouseja se naõ carregar o primeiro ele vai decer ate achar um que fucione-->
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg"><!--aqui temos um source so que para audios com os parametros 'src=""' que indica a localização do arquivo... 'type="'que indica o tipo do arquivo -->
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não suporta</p>
+
+    </audio>
+</body>
+
+</html>
