@@ -5,7 +5,7 @@
     Ex-003: O exercício 003 explica como colocar imagens no html de forma interna e externa com a tag &lt;img&gt;
     Ex-004: O exercício 004 explica como colocar um favicon ... utiliza a tag &lt;link&gt; e os parametros rel="shortcut icon" href="" type="image/x-icon
     Ex-005: O exercício 005 explica a hierarquia dos titulos com as tag &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;,
-    Ex-006: O exercício 006 explica
+    Ex-006: O exercício 006 explica apenas tags adicionais interessantes...como o texto em Negrito com a tag &lt;strong&gt;, o texto em Italico com a tag &lt;em&gt;, o texto marcado com a tag &lt;mark&gt;, o texto pequeno com a tag &lt;small&gt;, o texto excluido com a tag &lt;del&gt;, o texto inserido com a tag &lt;ins&gt;, 
     Ex-007: O exercício 007 explica
     Ex-008: O exercício 008 explica
     Ex-009: O exercício 009 explica
