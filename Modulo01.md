@@ -1,17 +1,17 @@
-<code><pre>Resumo:
-  Exercícios:
-    Ex-001: O exercício 001 explica de maneira simples o codigo inicial do HTML, o que é a tag para titulo &lt;h1&gt;, qual tag para colocar um paragrafo &lt;p&gt;
-    Ex-002: O exercício 002 explica a como funciona os paragrafos, como adicionar uma linha na horrizontal com a tag &lt;hr&gt;, como quebra linhas com a tag &lt;br&gt;, como adicionar emojis e caracteres especiais
-    Ex-003: O exercício 003 explica como colocar imagens no html de forma interna e externa com a tag &lt;img&gt;
-    Ex-004: O exercício 004 explica como colocar um favicon ... utiliza a tag &lt;link&gt; e os parametros rel="shortcut icon" href="" type="image/x-icon
-    Ex-005: O exercício 005 explica a hierarquia dos titulos com as tag &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;,
-    Ex-006: O exercício 006 explica apenas tags adicionais interessantes...como o texto em Negrito com a tag &lt;strong&gt;, o texto em Italico com a tag &lt;em&gt;, o texto marcado com a tag &lt;mark&gt;, o texto pequeno com a tag &lt;small&gt;, o texto excluido com a tag &lt;del&gt;, o texto inserido com a tag &lt;ins&gt;, 
-    Ex-007: O exercício 007 explica
-    Ex-008: O exercício 008 explica
-    Ex-009: O exercício 009 explica
-    Ex-010: O exercício 010 explica
-    Ex-011: O exercício 011 explica
-    Ex-012: O exercício 012 explica
-    Ex-013: O exercício 013 explica
-    </pre>
-</code>
+<h1>Resumo:</h1>
+  <h2>Exercícios:</h2>
+   <p> Ex-001: O exercício 001 explica de maneira simples o codigo inicial do HTML, o que é a tag para titulo &lt;h1&gt;, qual tag para colocar um paragrafo &lt;p&gt;</p> 
+   <p> Ex-002: O exercício 002 explica a como funciona os paragrafos, como adicionar uma linha na horrizontal com a tag &lt;hr&gt;, como quebra linhas com a tag &lt;br&gt;, como adicionar emojis e caracteres especiais</p>
+   <p> Ex-003: O exercício 003 explica como colocar imagens no html de forma interna e externa com a tag &lt;img&gt;</p>
+   <p> Ex-004: O exercício 004 explica como colocar um favicon ... utiliza a tag &lt;link&gt; e os parametros rel="shortcut icon" href="" type="image/x-icon</p>
+  <p>  Ex-005: O exercício 005 explica a hierarquia dos titulos com as tag &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</p>
+  <p>  Ex-006: O exercício 006 explica apenas tags adicionais interessantes...como o texto em Negrito com a tag &lt;strong&gt;, o texto em Italico com a tag &lt;em&gt;, o texto marcado com a tag &lt;mark&gt;, o texto pequeno com a tag &lt;small&gt;, o texto excluido com a tag &lt;del&gt;, o texto inserido com a tag &lt;ins&gt;, o texto sobrescrito com a tag &lt;sop&gt;, e como colocar o texto subscrito com a tag &lt;sub&gt;</p>
+ <p> Ex-007: O exercício 007 explica como colocar de uma maneira mais praticas de reprentar um codigo utilizando a tag &lt;code&gt;... e para melhorar essa tag de certa forma utiliza a tag &lt;pre&gt; como pai da tag &lt;code&gt;, como adicionar citações simples com a tag &lt;q&gt; e citações completas com a tag &lt;blockquote&gt; junto com o parametro 'cite=""' para indicar de onde veio a citação, tambem mostra como fazer abreviações com a tag &lt;abbr&gt; junto com o parametro 'title=""' para mostra o significado da abreviação... e tambem temos a tag &lt;bdo&gt; que invester as palavras</p> 
+  <p>Ex-008: O exercício 008 explica como colocar lista  Ordenadas com a tag &lt;ol&gt; com os parametros 'type=""' e 'start=""', como adicionar linhas com a tag &lt;li&gt;, como adicionar a lista não ordenadas com a tag &lt;ul&gt; e os mesmos parametros da &lt;ol&gt;, como adicionar as listas de definição com a tag &lt;dl&gt;... como adicionar um termo nessa lsita com a tag &lt;dt&gt; e uma discrição com a tag &lt;dd&gt;</p>
+    <p>Ex-009: O exercício 009 explica como usar links externos e internos com a tag &lt;a&gt; e os parametros 'href=""'...'target=""'...'rel=""', links para dowload com a tag &lt;a&gt; e os parametros 'href=""'...'target=""'...'rel=""'....'download=""'</p>
+    <p>Ex-010: O exercício 010 explica como  deixar as imagens dinamicas com a tag &lt;picture&gt;, como  deixar os audios dinamicas com a tag &lt;audio&gt; e explica as funções da tag &lt;souurce&gt; e os parametros 'media="()"'... 'srcset=""'... 'type=""'... 'src=""'... 'controls'... 'autoplay'... 'loop'</p>
+    <p>Ex-011: O exercício 011 explica  como  deixar os videos dinamicas com a tag &lt;video&gt; e explica as funções da tag &lt;souurce&gt; e os parametros 'type=""'... 'src=""'... 'controls'... 'autoplay'... 'loop' e como pegar videos de outros lugares</p>
+    <p>Ex-012: O exercício 012 explica como utilizar o estilo inline de css</p>
+    <p>Ex-013: O exercício 013 explica como utilizar o estilo interno de css</p>
+    <p>Ex-014: O exercício 014 explica como utilizar o estilo externo de css</p>
+
